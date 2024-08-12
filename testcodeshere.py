@@ -2,7 +2,7 @@ import time
 
 WINDOW_TIME = 10
 MAX_REQUESTS = 5
-request_times = {}
+request_times = {} # this is the dic , 'ip_address' : [89327492,028028408,0138103480,30291481023489]
 
 def rate_limit(ip_address):
     current_time = time.time()
